@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "flaskboardx"
+version = "0.1.0"
+description = ""
+authors = ["Hichem Dridi <dridi.hichem18@gmail.com>"]
+readme = "README.md"
+packages = [{include = "flaskboardx", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
